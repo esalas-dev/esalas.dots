@@ -1,1 +1,5 @@
-../../Devs/dotfiles/opencode/opencode.json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/kimi-k2.5",
+  "autoupdate": true,
+}

@@ -1,1 +1,0 @@
-../Devs/dotfiles/setup.sh
