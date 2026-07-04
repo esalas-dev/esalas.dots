@@ -98,3 +98,4 @@
 2026-07-04T21:48:53.309563Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(52354)
 2026-07-04T21:50:53.590436Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
 2026-07-04T21:50:54.006548Z  INFO herdr::server::headless: client resize client_id=4 cols=110 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-04T22:08:59.050063Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
