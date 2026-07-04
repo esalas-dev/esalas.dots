@@ -1,0 +1,6 @@
+2026-07-03T18:34:54.470625Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=41073
+2026-07-03T18:34:54.470673Z  INFO herdr::client: connecting to server path=/Users/esalas/.config/herdr/herdr-client.sock
+2026-07-03T18:34:54.506477Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-07-04T21:00:53.213519Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=50875
+2026-07-04T21:00:53.213719Z  INFO herdr::client: connecting to server path=/Users/esalas/.config/herdr/herdr-client.sock
+2026-07-04T21:00:53.392172Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
