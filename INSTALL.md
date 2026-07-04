@@ -14,9 +14,6 @@ brew update
 brew install \
   git \
   neovim \
-  tmux \
-  zellij \
-  starship \
   zsh-autosuggestions \
   fzf \
   fd \
@@ -37,10 +34,7 @@ brew install \
 ## 3. Apps y casks de macOS
 
 ```bash
-brew tap nikitabobko/tap
-
 brew install --cask \
-  nikitabobko/tap/aerospace \
   ghostty \
   obsidian \
   font-jetbrains-mono-nerd-font
@@ -53,16 +47,6 @@ brew install dlvhdr/gh-dash/gh-dash
 brew install diffnav
 ```
 
-## 5. TPM para tmux
-
-```bash
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
-Después de abrir tmux, instalar plugins con:
-En esta config el prefix es `Ctrl+A`, así que normalmente sería `Ctrl+A` y luego `I`.
-
-
 ## 6. Neovim / LazyVim
 
 No requiere comandos extra además de `neovim`. La config clona `lazy.nvim` automáticamente al abrir `nvim` por primera vez.
@@ -70,3 +54,4 @@ No requiere comandos extra además de `neovim`. La config clona `lazy.nvim` auto
 ```bash
 go install golang.org/x/tools/gopls@latest
 ```
+
