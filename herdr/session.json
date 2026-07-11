@@ -4,29 +4,61 @@
     {
       "id": "w5",
       "custom_name": null,
-      "identity_cwd": "/Users/esalas",
+      "identity_cwd": "/Users/esalas/Devs/IndexSupervisor_v1",
       "public_pane_numbers": {
+        "11": 6,
+        "12": 7,
         "6": 1
       },
-      "next_public_pane_number": 2,
+      "next_public_pane_number": 8,
       "public_tab_numbers": [
-        1
+        1,
+        5,
+        6
       ],
-      "next_public_tab_number": 2,
+      "next_public_tab_number": 7,
       "tabs": [
         {
-          "custom_name": null,
+          "custom_name": "Pi",
           "layout": {
             "Pane": 6
           },
           "panes": {
             "6": {
-              "cwd": "/Users/esalas"
+              "cwd": "/Users/esalas/Devs/IndexSupervisor_v1"
             }
           },
           "zoomed": false,
           "focused": 6,
           "root_pane": 6
+        },
+        {
+          "custom_name": "ctx",
+          "layout": {
+            "Pane": 11
+          },
+          "panes": {
+            "11": {
+              "cwd": "/Users/esalas/Devs/ctx-mem"
+            }
+          },
+          "zoomed": false,
+          "focused": 11,
+          "root_pane": 11
+        },
+        {
+          "custom_name": "term",
+          "layout": {
+            "Pane": 12
+          },
+          "panes": {
+            "12": {
+              "cwd": "/Users/esalas/Devs/Symphony"
+            }
+          },
+          "zoomed": false,
+          "focused": 12,
+          "root_pane": 12
         }
       ],
       "active_tab": 0

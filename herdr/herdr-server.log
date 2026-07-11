@@ -99,3 +99,286 @@
 2026-07-04T21:50:53.590436Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
 2026-07-04T21:50:54.006548Z  INFO herdr::server::headless: client resize client_id=4 cols=110 rows=54 cell_width_px=0 cell_height_px=0
 2026-07-04T22:08:59.050063Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-04T22:10:10.433087Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-04T22:12:48.348944Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(52887)
+2026-07-04T22:12:52.300939Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-04T22:12:57.855580Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(52926)
+2026-07-04T22:35:32.051991Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=53 cols=84 scrollback_limit_bytes=10000000
+2026-07-04T22:35:32.062125Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=53397
+2026-07-04T22:35:32.062501Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T22:35:32.062547Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2" pane_id=7
+2026-07-04T22:35:37.075176Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T22:36:31.014734Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T22:36:36.019905Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T22:37:04.306351Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T22:37:09.313665Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T22:38:59.058588Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-04T22:43:44.959117Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T22:43:49.965811Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T22:43:59.054598Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T22:44:04.073636Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T22:44:05.735926Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-04T22:44:18.354696Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(54094)
+2026-07-04T22:54:38.811286Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T22:54:43.820380Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T22:55:23.095906Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=53 cols=84 scrollback_limit_bytes=10000000
+2026-07-04T22:55:23.104413Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=54589
+2026-07-04T22:55:23.105104Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-07-04T22:55:23.105144Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3" pane_id=8
+2026-07-04T22:55:28.115819Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T22:57:04.137083Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T22:57:09.142923Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:08:59.072882Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-04T23:32:51.125810Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T23:32:56.139721Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:33:13.068962Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T23:33:18.077863Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:33:18.552094Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T23:33:23.562778Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:36:24.401111Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T23:36:29.412086Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:37:24.699443Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-07-04T23:37:33.662857Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-04T23:38:59.106893Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-04T23:45:34.513843Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T23:45:39.523117Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:45:46.553524Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Codex) process=codex pgid=Some(58428)
+2026-07-04T23:46:21.490307Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Codex) agent=None pgid=Some(53397)
+2026-07-04T23:46:50.354005Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-07-04T23:46:53.808329Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T23:46:54.817316Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T23:46:55.303946Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-07-04T23:47:00.307847Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:48:53.775208Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-04T23:48:58.779915Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-04T23:50:13.050651Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-04T23:50:18.066605Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T00:03:29.295459Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-07-05T00:03:34.309321Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T00:03:35.717636Z  INFO herdr::pane: agent changed pane=8 previous_agent=None agent=Some(Codex) process=codex pgid=Some(59563)
+2026-07-05T00:04:12.420882Z  INFO herdr::pane: agent changed pane=8 previous_agent=Some(Codex) agent=None pgid=Some(54589)
+2026-07-05T00:04:18.568584Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T00:04:23.583087Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T00:08:59.047940Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T00:13:43.961613Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-05T00:13:48.979979Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T00:16:34.583528Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-07-05T00:16:35.238760Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T00:16:40.266254Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T00:38:59.035976Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T00:55:24.941659Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-05T00:55:27.286262Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Codex) process=codex pgid=Some(61069)
+2026-07-05T00:55:29.962710Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T00:55:51.611856Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Codex) agent=None pgid=Some(53397)
+2026-07-05T01:55:05.368843Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T06:59:34.200860Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T13:33:16.442625Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T17:05:42.959214Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-05T17:05:43.519902Z  INFO herdr::server::headless: client resize client_id=4 cols=110 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T17:06:35.319459Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:06:35.446843Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-05T17:06:36.809549Z  INFO herdr::server::headless: client resize client_id=4 cols=110 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T17:06:41.351534Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Codex) process=codex pgid=Some(63436)
+2026-07-05T17:11:03.095373Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Codex) agent=None pgid=Some(53397)
+2026-07-05T17:11:14.969382Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-07-05T17:11:19.978048Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:11:20.107625Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T17:11:25.126758Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:11:58.360453Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-05T17:12:03.381055Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:12:57.795778Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T17:13:02.822718Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:14:27.349670Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-05T17:14:29.223649Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T17:14:34.232583Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:16:02.393416Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-05T17:22:32.597683Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-05T17:22:37.610078Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:22:42.208278Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T17:22:53.635650Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T17:22:58.647049Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:23:57.950984Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-05T17:24:02.958750Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:24:34.853578Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T17:24:39.865573Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T17:52:42.216439Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T17:56:24.005973Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t2"
+2026-07-05T17:56:29.020728Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-05T18:06:05.979517Z  INFO herdr::server::headless: client resize client_id=4 cols=122 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T18:06:06.084418Z  INFO herdr::server::headless: client resize client_id=4 cols=160 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T18:06:06.188338Z  INFO herdr::server::headless: client resize client_id=4 cols=205 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T18:06:06.293387Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T18:22:42.223998Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T19:14:06.800402Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-05T19:14:07.318419Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T19:16:29.465782Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T19:46:29.495131Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T20:16:29.460024Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T20:46:29.465325Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T21:16:29.467700Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T21:46:29.480656Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T22:16:29.451884Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T22:56:44.472577Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-05T22:56:44.988115Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-05T23:18:32.321962Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T23:48:32.345041Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T00:53:55.893362Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T05:07:26.262882Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T13:18:09.269577Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T14:10:01.311577Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T14:10:01.878030Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T14:10:14.011993Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T14:10:16.214776Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T14:15:49.968996Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T14:15:51.312064Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T14:27:20.158738Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t3"
+2026-07-06T14:27:25.168126Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T14:27:32.746949Z  INFO herdr::pane: agent changed pane=8 previous_agent=None agent=Some(Pi) process=pi pgid=Some(94079)
+2026-07-06T14:27:49.783896Z  INFO herdr::pane: agent changed pane=8 previous_agent=Some(Pi) agent=None pgid=Some(54589)
+2026-07-06T14:28:10.528685Z  INFO herdr::pane: agent changed pane=8 previous_agent=None agent=Some(Pi) process=pi pgid=Some(94112)
+2026-07-06T14:28:12.968194Z  INFO herdr::pane: agent changed pane=8 previous_agent=Some(Pi) agent=None pgid=Some(54589)
+2026-07-06T14:28:16.501300Z  INFO herdr::pane: agent changed pane=8 previous_agent=None agent=Some(Pi) process=pi pgid=Some(94149)
+2026-07-06T14:28:50.239857Z  INFO herdr::pane: agent changed pane=8 previous_agent=Some(Pi) agent=None pgid=Some(54589)
+2026-07-06T14:28:53.781750Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-07-06T14:28:53.781990Z  INFO herdr::pane: pane session terminated pane=8 pid=54589 signal=Hangup
+2026-07-06T14:28:58.785843Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T14:29:05.941577Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=53 cols=196 scrollback_limit_bytes=10000000
+2026-07-06T14:29:05.950443Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=94183
+2026-07-06T14:29:05.951295Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t4"
+2026-07-06T14:29:05.951351Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t4" pane_id=9
+2026-07-06T14:29:10.961638Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T14:29:39.354507Z  INFO herdr::pane: agent changed pane=9 previous_agent=None agent=Some(Pi) process=pi pgid=Some(94259)
+2026-07-06T14:29:45.455678Z  INFO herdr::pane: agent changed pane=9 previous_agent=Some(Pi) agent=None pgid=Some(94183)
+2026-07-06T14:29:47.574633Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 0, signal: None }"
+2026-07-06T14:29:47.574803Z  INFO herdr::pane: pane session terminated pane=9 pid=94183 signal=Hangup
+2026-07-06T14:29:52.580471Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T14:30:18.315209Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Pi) process=pi pgid=Some(94297)
+2026-07-06T14:30:25.320036Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Pi) agent=None pgid=Some(53397)
+2026-07-06T14:30:28.590993Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 0, signal: None }"
+2026-07-06T14:30:28.591103Z  INFO herdr::pane: pane session terminated pane=7 pid=53397 signal=Hangup
+2026-07-06T14:30:33.023528Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T14:30:36.746458Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=26 cols=98 scrollback_limit_bytes=10000000
+2026-07-06T14:30:36.753119Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=94328
+2026-07-06T14:30:41.766657Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T14:30:52.307661Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=53 cols=98 scrollback_limit_bytes=10000000
+2026-07-06T14:30:52.315802Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=94379
+2026-07-06T14:30:52.316317Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t5"
+2026-07-06T14:30:52.316363Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t5" pane_id=11
+2026-07-06T14:30:57.328826Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T14:31:07.519187Z  INFO herdr::pane: agent changed pane=11 previous_agent=None agent=Some(Pi) process=pi pgid=Some(94431)
+2026-07-06T14:36:07.064464Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T15:06:07.036485Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T15:06:10.829192Z  WARN herdr::logging: update check failed event="update.check.complete" subsystem="update" outcome="error" err="failed to fetch Homebrew formula JSON"
+2026-07-06T15:06:12.739924Z  WARN herdr::detect::manifest_update: agent detection manifest update failed: failed to fetch https://herdr.dev/agent-detection/index.toml
+2026-07-06T15:36:07.021553Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T15:43:35.830384Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T15:43:36.445804Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T16:00:53.978504Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T16:01:08.611678Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T16:06:39.965597Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T16:37:31.073903Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T16:37:31.479985Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T17:00:30.364428Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T17:30:30.412046Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T17:35:38.946994Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T18:12:01.410534Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T18:16:11.740137Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T18:41:12.595391Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=53 cols=196 scrollback_limit_bytes=10000000
+2026-07-06T18:41:12.610484Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=96645
+2026-07-06T18:41:12.611551Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t6"
+2026-07-06T18:41:12.611608Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t6" pane_id=12
+2026-07-06T18:41:17.627714Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T18:42:43.327857Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t5"
+2026-07-06T18:42:48.337542Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-06T18:46:11.781813Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T19:33:36.335984Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T19:53:17.135162Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T19:53:17.620411Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T20:00:48.792354Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T20:03:36.347050Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T21:14:39.695674Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T21:32:34.051647Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-06T21:32:37.694267Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-06T21:44:39.739574Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T22:14:39.756281Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T22:44:39.768640Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T23:14:39.742728Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T23:44:39.699452Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T00:14:39.708579Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T00:44:39.640461Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T01:14:39.636523Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T01:44:39.658149Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T02:14:39.685787Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T02:25:23.180941Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t6"
+2026-07-07T02:25:28.194659Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-07T02:33:44.315103Z  INFO herdr::pane: agent changed pane=12 previous_agent=None agent=Some(Pi) process=pi pgid=Some(9221)
+2026-07-07T02:37:53.957151Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-07T02:40:22.136688Z  INFO herdr::server::headless: client resize client_id=4 cols=127 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-07T02:44:39.724291Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T03:14:39.756171Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T03:16:08.567250Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t5"
+2026-07-07T03:16:13.581693Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-07T03:16:30.044412Z  INFO herdr::pane: agent changed pane=11 previous_agent=Some(Pi) agent=None pgid=Some(94379)
+2026-07-07T03:16:35.096110Z  INFO herdr::pane: agent changed pane=11 previous_agent=None agent=Some(Codex) process=codex pgid=Some(10452)
+2026-07-07T03:19:27.403955Z  INFO herdr::pane: agent changed pane=11 previous_agent=Some(Codex) agent=None pgid=Some(94379)
+2026-07-07T03:44:39.769787Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T04:14:39.736521Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T14:58:39.117163Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-07T15:02:51.328925Z  INFO herdr::server::headless: client resize client_id=4 cols=127 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-07T15:14:14.841537Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T15:44:14.890335Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T16:14:14.927067Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T16:44:14.918862Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T17:14:14.869004Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T17:44:14.869582Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T18:14:14.875324Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T18:44:14.871949Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T19:14:14.891963Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T19:44:14.899274Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T20:14:14.903549Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T20:44:14.902884Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T21:14:14.902512Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T21:44:14.840978Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T21:44:15.062212Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.7.2"
+2026-07-07T21:44:15.160592Z  INFO herdr::update: auto-update check: v0.7.2 available through Homebrew, waiting for explicit install
+2026-07-08T18:37:50.690942Z  INFO herdr::pane: agent changed pane=11 previous_agent=None agent=Some(Codex) process=codex pgid=Some(39184)
+2026-07-09T17:14:22.770638Z  WARN herdr::detect::manifest_update: agent detection manifest update failed: failed to fetch https://herdr.dev/agent-detection/index.toml
+2026-07-09T23:06:49.411274Z  INFO herdr::server::headless: client resize client_id=4 cols=63 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-09T23:07:00.854288Z  INFO herdr::server::headless: client resize client_id=4 cols=110 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-09T23:07:09.032832Z  INFO herdr::pane: agent changed pane=11 previous_agent=Some(Codex) agent=None pgid=Some(94379)
+2026-07-09T23:07:13.786576Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t6"
+2026-07-09T23:07:18.798722Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-09T23:07:28.498932Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-09T23:07:46.722636Z  INFO herdr::pane: agent changed pane=12 previous_agent=Some(Pi) agent=None pgid=Some(96645)
+2026-07-09T23:08:10.452217Z  INFO herdr::pane: agent changed pane=12 previous_agent=None agent=Some(Pi) process=pi pgid=Some(58940)
+2026-07-09T23:08:13.797753Z  INFO herdr::pane: agent changed pane=12 previous_agent=Some(Pi) agent=None pgid=Some(96645)
+2026-07-09T23:09:29.233813Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-09T23:09:34.241193Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-09T23:09:36.362818Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 0, signal: None }"
+2026-07-09T23:09:36.363013Z  INFO herdr::pane: pane session terminated pane=10 pid=94328 signal=Hangup
+2026-07-09T23:09:40.404413Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-09T23:09:41.372351Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/esalas/.config/herdr/session.json workspaces=1
+2026-07-09T23:09:58.099887Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(58988)
+2026-07-09T23:10:10.890955Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-09T23:10:16.956417Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(59020)
+2026-07-09T23:10:21.506402Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-09T23:10:28.572905Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(59027)
+2026-07-09T23:41:23.223838Z  INFO herdr::server::headless: client resize client_id=4 cols=127 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-10T02:12:22.781234Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-10T02:12:46.956448Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-10T02:15:27.097658Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(61648)
+2026-07-10T02:15:35.320964Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-10T02:15:41.386810Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(61682)
+2026-07-10T02:15:45.344571Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)
+2026-07-10T02:15:47.363281Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(Pi) process=pi pgid=Some(61691)
+2026-07-10T02:21:48.601883Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-10T02:25:04.238914Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-10T02:29:04.904935Z  INFO herdr::server::headless: client resize client_id=4 cols=127 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-10T03:33:31.069784Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-10T04:37:35.964130Z  INFO herdr::server::headless: client resize client_id=4 cols=127 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-10T22:44:14.876114Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-10T23:14:14.865897Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-10T23:44:14.896214Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-10T23:45:12.965939Z  INFO herdr::server::headless: client resize client_id=4 cols=222 rows=54 cell_width_px=0 cell_height_px=0
+2026-07-11T00:04:06.130809Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-11T00:04:08.270532Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(Pi) agent=None pgid=Some(52232)

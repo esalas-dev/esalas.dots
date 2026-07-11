@@ -59,10 +59,10 @@ alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 
 # GO
-export GOPATH='/Users/omerxx/go'
+export GOPATH='/Users/esalas/go'
 
 # VIM
-alias v="/Users/omerxx/.nix-profile/bin/nvim"
+alias v="/Users/esalas/.nix-profile/bin/nvim"
 
 # Nmap
 alias nm="nmap -sC -sV -oN nmap"
@@ -148,9 +148,3 @@ fv() { nvim "$(find . -type f -not -path '*/.*' | fzf)" }
 	 . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
  fi
  # End Nix
-
-export XDG_CONFIG_HOME="/Users/omerxx/.config"
-
-eval "$(zoxide init zsh)"
-eval "$(atuin init zsh)"
-eval "$(direnv hook zsh)"

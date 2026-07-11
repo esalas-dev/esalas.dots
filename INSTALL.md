@@ -29,6 +29,9 @@ brew install \
   cmatrix \
   ffuf \
   go \
+  nushell \
+  starship \
+  carapace \
 ```
 
 ## 3. Apps y casks de macOS
@@ -54,4 +57,3 @@ No requiere comandos extra además de `neovim`. La config clona `lazy.nvim` auto
 ```bash
 go install golang.org/x/tools/gopls@latest
 ```
-
