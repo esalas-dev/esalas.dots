@@ -92,8 +92,5 @@
     "username_toggle": "none",
     "variant_cycle": "ctrl+t"
   },
-  "plugin": [
-    "opencode-subagent-statusline",
-    "opencode-sdd-engram-manage"
-  ]
+  "plugin": []
 }

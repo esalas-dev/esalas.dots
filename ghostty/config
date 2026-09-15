@@ -6,3 +6,5 @@ macos-option-as-alt = true
 background-blur-radius = 20
 theme = catppuccin mocha
 font-family = JetBrains Mono
+
+macos-option-as-alt = false

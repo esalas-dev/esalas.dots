@@ -1,2 +1,32 @@
-# Local Pi runtime state
+# Estado local de Pi
 .atl/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Credenciales y secretos
+**/.env
+**/.env.*
+!**/.env.example
+**/credentials.json
+**/credentials.yml
+**/credentials.yaml
+**/*.pem
+**/*.key
+**/id_rsa*
+**/id_ed25519*
+
+# Autenticación e identidad local
+gh/hosts.yml
+ssh/ssh-config
+cagent/
+
+# Estado generado por aplicaciones
+ghostty/ps.json
+herdr/*.log
+herdr/session.json
+herdr/sessions/
+herdr/release-notes.json
+herdr/.plugins.lock
+openspec/config.json

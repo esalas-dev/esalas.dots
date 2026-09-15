@@ -6,6 +6,8 @@ return {
         opts.servers = {}
       end
       opts.servers.gopls = {
+        -- Keep the configuration available without installing gopls through Mason.
+        mason = false,
         settings = {
           gopls = {
             analyses = {
