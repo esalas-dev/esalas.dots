@@ -14,7 +14,7 @@ Dotfiles para configurar un entorno de desarrollo en macOS basado en Zsh, Ghostt
 - **CLI:** fzf, fd, ripgrep, bat, eza, zoxide, direnv, Nushell, carapace y otras utilidades.
 - **Aplicaciones:** Obsidian.
 
-El inventario completo y actualizado está en [`Brewfile`](./Brewfile).
+El inventario de paquetes gestionados por Homebrew está en [`Brewfile`](./Brewfile). `gh-dash` se instala por separado como extensión de GitHub CLI.
 
 ## Requisitos
 
@@ -32,6 +32,7 @@ Consulta la guía completa en [`INSTALL.md`](./INSTALL.md). En una instalación 
 git clone https://github.com/esalas-dev/esalas.dots.git ~/.dotfiles
 cd ~/.dotfiles
 brew bundle --file=Brewfile
+gh extension install dlvhdr/gh-dash
 ```
 
 Después deben crearse los enlaces simbólicos y realizarse las inicializaciones descritas en la guía. No ejecutes solamente estos comandos si todavía no tienes Homebrew configurado.
@@ -57,6 +58,7 @@ Después deben crearse los enlaces simbólicos y realizarse las inicializaciones
 cd ~/.dotfiles
 git pull
 brew bundle --file=Brewfile
+gh extension upgrade dlvhdr/gh-dash
 ```
 
 Para comprobar si están instaladas todas las dependencias:

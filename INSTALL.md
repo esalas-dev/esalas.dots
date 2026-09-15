@@ -55,6 +55,16 @@ brew update
 brew bundle --file="$HOME/.dotfiles/Brewfile"
 ```
 
+`gh-dash` se distribuye como una extensión de GitHub CLI. Instálala o actualízala con:
+
+```bash
+if gh extension list | grep -q 'dlvhdr/gh-dash'; then
+  gh extension upgrade dlvhdr/gh-dash
+else
+  gh extension install dlvhdr/gh-dash
+fi
+```
+
 `gopls` no forma parte del `Brewfile` y su instalación automática mediante Mason está desactivada. La configuración del servidor seguirá disponible si se instala manualmente más adelante.
 
 ## 5. Enlazar las configuraciones
@@ -109,6 +119,7 @@ brew bundle check --file="$HOME/.dotfiles/Brewfile"
 git --version
 nvim --version
 gh --version
+gh dash --version
 starship --version
 ```
 
@@ -124,6 +135,7 @@ brew doctor
 cd ~/.dotfiles
 git pull
 brew bundle --file=Brewfile
+gh extension upgrade dlvhdr/gh-dash
 ```
 
 Los tokens, credenciales, configuraciones SSH, identificadores, logs y datos de sesión son locales y están excluidos mediante `.gitignore`.

@@ -1,5 +1,4 @@
 tap "anomalyco/tap"
-tap "dlvhdr/gh-dash"
 
 # Herramientas del entorno.
 brew "bat"
@@ -12,7 +11,6 @@ brew "fd"
 brew "ffuf"
 brew "fzf"
 brew "gh"
-brew "dlvhdr/gh-dash/gh-dash"
 brew "git"
 brew "go"
 brew "herdr"
