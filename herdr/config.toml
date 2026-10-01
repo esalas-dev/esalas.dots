@@ -1,7 +1,10 @@
 onboarding = false
 [theme]
-name = "dracula"
+name = "catppuccin"
 auto_switch = false
 
 [keys]
 prefix = "ctrl+z"
+
+[ui]
+status_indicators = "dots"
